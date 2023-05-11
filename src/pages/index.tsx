@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import ProfileImage from "../../public/Profile.png";
 import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { aboutMeText } from "@/constants/constants";
 
 const sections = [
   {
@@ -11,7 +12,7 @@ const sections = [
     content:
       "As a MERN stack developer, I specialize in creating full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I have experience working on various projects, including e-commerce websites, social media platforms, and business management systems. My expertise includes designing responsive user interfaces, implementing secure authentication and authorization systems, and  optimizing website performance.",
   },
-  { id: "about", label: "About", content: "Learn more about me and my background." },
+  { id: "about", label: "My Journey So Far 💻", content: aboutMeText.replace(/\n/g, "</p><p>") },
   { id: "skills", label: "Skills", content: "See a list of my skills and expertise." },
   { id: "projects", label: "Projects", content: "Check out some of my past projects." },
   { id: "contact", label: "Contact", content: "Get in touch with me." },
@@ -94,9 +95,47 @@ export default function MyApp() {
             </div>
           </div>
         ) : (
-          <div>
+          <div className="adjustWidth text-center">
             <h1 className="text-3xl font-bold mb-4">{currentSection.label}</h1>
-            <p className="text-lg">{currentSection.content}</p>
+            <p className="text-lg text-justify">
+              <div>
+                <p>
+                  Since I was young, I've been fascinated by computers. I remember infecting my first computer with a
+                  virus when I was only 4 or 5 years old 😅, and failing to install Windows. But that failure only
+                  fueled my determination to learn more.
+                </p>
+                <br />
+                <p>
+                  As I got older, my love for computers grew stronger. I played games and dreamed of creating my own 🎮.
+                  It wasn't until I studied ICS in college that I learned programming and my interest skyrocketed. With
+                  my professor's encouragement, I pursued BSCS at the University of Sargodha.
+                </p>
+                <br />
+                <p>
+                  During university, I developed websites and freelanced after taking a WordPress course. I joined
+                  Pineal Software House to write code in WordPress. I worked on several FYPs, converting mockups into
+                  fully functional websites.
+                </p>
+                <br />
+                <p>
+                  Later, COVID hit and affected game development. I reached out to my mentor for guidance and deepened
+                  my grip on JavaScript before working on React. I passed my first-ever job interview and started
+                  working at Carbonteq, learning various skills such as clean code, MERN stack, and design systems.
+                </p>
+                <br />
+                <p>
+                  In my free time, I love playing e-games like Tekken, FIFA, CSGO, and Cricket 22 🎮🏏. I'm a die-hard
+                  cricket fan and even play cricket in my spare time. I also like to play snooker and go hiking to stay
+                  updated with new trends and technologies.
+                </p>
+                <br />
+                <p>
+                  Overall, my journey has been a mix of failures and successes, but my passion for computers has only
+                  grown stronger with time. I dream of continuously learning new things, as it keeps me interested in
+                  life and healthy. 💪
+                </p>
+              </div>
+            </p>
           </div>
         )}
       </div>
