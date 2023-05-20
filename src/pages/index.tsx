@@ -3,6 +3,7 @@ import Experiance from "@/components/Experiance";
 import Home from "@/components/Home";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import React from "react";
@@ -23,6 +24,7 @@ export default function MyApp() {
           </motion.div>
           <motion.div className="h-[88vh] w-full mx-auto px-48 p-10">
             <Home /> <About /> <Experiance />
+            <Projects />
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
