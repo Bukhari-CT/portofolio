@@ -43,7 +43,7 @@ function Projects() {
       {/* Second Project */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row-reverse gap-6">
-          <a href="https://dtuc.viralsolutions.com/" className="w-full xl:w-1/2 h-auto relative group" target="_blank">
+          <a href="https://cafezupas.com/" className="w-full xl:w-1/2 h-auto relative group" target="_blank">
             <div>
               <Image className="w-full h-full object-contain" src={Cafezupas} alt="CafezupasImage" />
             </div>
