@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Home from "@/components/Home";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
@@ -20,7 +21,7 @@ export default function MyApp() {
             <LeftSide />
           </motion.div>
           <motion.div className="h-[88vh] w-full mx-auto px-48 p-10">
-            <Home />{" "}
+            <Home /> <About />
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
