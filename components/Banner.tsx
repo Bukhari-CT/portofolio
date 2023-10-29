@@ -30,10 +30,13 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 2+ years of experience in MERN Stack
-        Development. I have a strong foundation in front-end & back-end
-        development and am skilled in creating user-friendly and responsive web
-        applications using React and its ecosystem.{" "}
+        Welcome to my portfolio! I'm Faisal Bukhari, a passionate Full Stack
+        Developer with a deep-rooted love for bringing web applications to life.
+        My journey into the world of web development began in 2018, and it all
+        started with the curiosity of customizing Tumblr themes. Little did I
+        know that tinkering with HTML,CSS and Javascript to create a custom
+        reblog button would ignite a lifelong fascination with crafting things
+        on the internet!{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
@@ -42,7 +45,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank">
+      <a href="https://github.com/Bukhari-CT" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

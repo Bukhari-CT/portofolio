@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { cafezupas, amazonImg, cyberImg, noorShop } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://cafezupas.com/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={cafezupas}
+                alt="cafezupas"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -31,39 +31,31 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Cafezupas</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              CafeZupas is sophisticated restaurant portal for menus, locations,
+              seamless online orders, and convenient{" "}
+              <span className="text-textGreen">social media logins</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
               <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Google Auth</li>
+              <li>Facebook Auth</li>
+              <li>Google Map</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://cafezupas.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -113,7 +105,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -160,7 +152,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
+              An Amazon clone website for visualFizing personalized Amazon
               website. View your products, Add your account with{" "}
               <span className="text-textGreen">O-auth</span> and then make the
               purchage using <span className="text-textGreen">stripe</span>.
@@ -175,7 +167,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />

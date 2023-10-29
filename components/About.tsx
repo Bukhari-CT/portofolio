@@ -13,28 +13,38 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Faisal Bukhari and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! I'm Faisal Bukhari, and I thrive on creating captivating
+            online experiences. As a
+            <span className="text-textGreen"> Full Stack Developer</span>, I
+            bring a holistic approach to web development, marrying both
+            front-end and back-end expertise. My journey in web development has
+            equipped me with a unique skill set, enabling me to take your
+            projects from concept to completion. With a focus on seamless user
+            experiences, I've optimized websites for various devices and
+            integrated efficient user sign-up processes.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            In web development, I've tackled the intricacies of Webpack,
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+              {" "}
+              enhancing website performance and achieving faster loading times.
+            </span>{" "}
+            I'm adept at translating complex Figma designs into polished React
+            applications.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+            <span className="text-textGreen">As a MERN Stack Developer</span>,
+            I've crafted responsive web applications, optimized performance, and
+            seamlessly integrated REST APIs. I've embraced modern front-end
+            tools and agile methodologies, working collaboratively. Fast-forward
+            to today, and I had the privilege of working at an advertising
+            agency, a start-up,{" "}
+          </p>
+          <p>
+            <span className="text-textGreen">In WordPress</span>, I've honed my
+            skills, transforming ideas into functional websites. From custom
+            development to e-commerce solutions, I excel in incorporating
+            advanced features for improved functionality.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
