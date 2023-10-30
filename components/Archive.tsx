@@ -4,6 +4,32 @@ import { motion } from "framer-motion";
 
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
+  const [projects, setProjects] = useState([
+    {
+      id: 1,
+      title: "Covid Test Report",
+      description:
+        "This is a website where user can get results of their covid test by loging in with there provided phone number or email",
+      live: "https://app.viralsolutionsga.com/results/login",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+    {
+      id: 2,
+      title: "Prisoners Covid Vacination Track",
+      description:
+        "This is a private website were Jails Officical and Covid Vacination team do tracking of covid vacination of their prisoners",
+      live: "#",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+    {
+      id: 3,
+      title: "Prisoners Covid Vacination Track",
+      description:
+        "This is a private website were Jails Officical and Covid Vacination team do tracking of covid vacination of their prisoners",
+      live: "https://sollabs.viralsolutionsga.com/login",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+  ]);
 
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-24">
