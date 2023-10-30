@@ -46,11 +46,18 @@ const Navbar = () => {
         {/* ============ Logo Start here ============ */}
         <Link href="/">
           <motion.div
+            style={{
+              display: "flex",
+              gap: "5px",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
             <Image className="w-14" src={logo} alt="logo" />
+            <p style={{ fontSize: 40, color: "#65ffdb" }}>Frontline Forge</p>
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
