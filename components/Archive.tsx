@@ -11,7 +11,7 @@ const Archive = () => {
       description:
         "Just Doing Solar offers comprehensive solar energy solutions, including installation, products, and guidance to help customers transition to sustainable and renewable energy sources.",
       live: "https://justdoingsolar.com/",
-      technology: ["React", "Node", "Antd", "Twilio"],
+      technology: ["Wordpress", "Hello Elementor", "WPForms", "Yoast SEO"],
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Archive = () => {
       description:
         "Crescent Education is an educational platform offering a range of courses, including vocational and English language training, to enhance skills and career opportunities in Australia.",
       live: "https://crescenteducation.com.au/",
-      technology: ["React", "Node", "Antd", "Twilio"],
+      technology: ["Wordpress", "OceanWP", "Ocean Social Sharing", "CF7"],
     },
     {
       id: 3,
@@ -27,7 +27,39 @@ const Archive = () => {
       description:
         "AXM Human Resources is a human resources platform providing professional HR services and solutions for businesses to effectively manage their workforce and optimize human capital.",
       live: "http://axmhr.com/",
-      technology: ["React", "Node", "Antd", "Twilio"],
+      technology: ["Wordpress", "Phlox Pro", "Stencil", "WP ULike"],
+    },
+    {
+      id: 4,
+      title: "Live Radio Player",
+      description:
+        "Live Radio Player provides a platform for users to access live radio streaming from various stations and genres, offering a diverse range of music and content for listeners.",
+      live: "https://www.liveradioplayer.com/",
+      technology: ["Wordpress", "Newspaper", "tagDiv", "WPQuads"],
+    },
+    {
+      id: 5,
+      title: "Imran & CO",
+      description:
+        "Imran & Co is a leading exporter of high-quality Basmati rice, known for its long, delicate grains, catering to international markets worldwide.",
+      live: "http://imranandco.com/",
+      technology: ["Wordpress", "Avada", "CF7"],
+    },
+    {
+      id: 6,
+      title: "WHTL Urban Radio",
+      description:
+        "WHTL Urban Radio is a platform for users to access live radio streaming from various stations and genres, offering a diverse range of music and content for listeners.",
+      live: "https://whtlurbanradio.com/",
+      technology: ["Wordpress", "Avada", "CF7"],
+    },
+    {
+      id: 7,
+      title: "Ameo Media",
+      description:
+        "Ameo Media is an online travel platform, likely offering information, booking services, and resources for travelers seeking various destinations and experiences.",
+      live: "http://travel.ameomedia.com/",
+      technology: ["Wordpress", "Astra", "Salon booking system", "To Top"],
     },
   ]);
   const [projects, setProjects] = useState([
@@ -77,7 +109,7 @@ const Archive = () => {
       description:
         "Drymax offers premium moisture control solutions, including desiccants and humidity indicators, to protect products from moisture damage.",
       live: "https://drymax.com.au/",
-      technology: ["Wordpress", "Avada", "Elementor", "CF7"],
+      technology: ["Wordpress", "Clenix", "Gutenburg", "Layer Slider"],
     },
   ]);
 
@@ -94,6 +126,7 @@ const Archive = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         {projects.map((project) => (
           <ArchiveCard
+            key={project.id}
             title={project.title}
             des={project.description}
             listItem={project.technology}
@@ -105,6 +138,7 @@ const Archive = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
           {moreProjects.map((project) => (
             <ArchiveCard
+              key={project.id}
               title={project.title}
               des={project.description}
               listItem={project.technology}

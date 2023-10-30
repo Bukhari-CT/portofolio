@@ -5,6 +5,7 @@ import {
   SlSocialFacebook,
   SlSocialInstagram,
 } from "react-icons/sl";
+import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
 
 const LeftSide = () => {
   return (
@@ -23,17 +24,14 @@ const LeftSide = () => {
             <SlSocialLinkedin />
           </span>
         </a>
-        <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+        <a href="https://www.fiverr.com/faisalbukhari" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialFacebook />
+            <TbBrandFiverr />
           </span>
         </a>
-        <a
-          href="https://www.instagram.com/shah__faisal__bukhari/"
-          target="_blank"
-        >
+        <a href="https://www.upwork.com/freelancers/faisalb21" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialInstagram />
+            <TbBrandUpwork />
           </span>
         </a>
       </div>

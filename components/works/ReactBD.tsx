@@ -25,7 +25,10 @@ const ReactBD = ({ experiance }: any) => {
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         {experiance?.responsibilites?.map((responsibility: string) => (
-          <li className="text-base flex gap-2 text-textDark">
+          <li
+            key={experiance.id}
+            className="text-base flex gap-2 text-textDark"
+          >
             <span className="text-textGreen mt-1">
               <TiArrowForward />
             </span>

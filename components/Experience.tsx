@@ -168,6 +168,7 @@ const Experience = () => {
         <ul className="md:w-32 flex flex-col">
           {experiences.map((experiance: any) => (
             <li
+              key={experiance.id}
               onClick={() => onClickExperiance(experiance.id)}
               className={`${
                 selectedExperiance.id === experiance.id

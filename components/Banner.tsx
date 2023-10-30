@@ -30,20 +30,13 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Welcome to my portfolio! I'm Faisal Bukhari, a passionate Full Stack
+        Welcome to my portfolio! I`m Faisal Bukhari, a passionate Full Stack
         Developer with a deep-rooted love for bringing web applications to life.
         My journey into the world of web development began in 2018, and it all
         started with the curiosity of customizing Tumblr themes. Little did I
-        know that tinkering with HTML,CSS and Javascript to create a custom
+        know that tinkering with HTML, CSS and Javascript to create a custom
         reblog button would ignite a lifelong fascination with crafting things
         on the internet!{" "}
-        <a href="https://www.noormohammad.live/" target="_blank">
-          {" "}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn more
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
-        </a>
       </motion.p>
       <a href="https://github.com/Bukhari-CT" target="_blank">
         <motion.button

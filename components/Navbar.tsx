@@ -10,6 +10,7 @@ import {
   SlSocialFacebook,
   SlSocialInstagram,
 } from "react-icons/sl";
+import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
 
@@ -127,7 +128,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          {/* <a href="/assets/noor_resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -136,7 +137,7 @@ const Navbar = () => {
             >
               Resume
             </motion.button>
-          </a>
+          </a> */}
         </div>
         {/* ============== Small Icon Start here =========== */}
         <div
@@ -236,7 +237,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/noor_resume.pdf" target="_blank">
+                {/* <a href="/assets/noor_resume.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -245,7 +246,7 @@ const Navbar = () => {
                   >
                     Resume
                   </motion.button>
-                </a>
+                </a> */}
                 <div className="flex gap-4">
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
@@ -273,22 +274,22 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.95, ease: "easeIn" }}
-                    href="https://www.facebook.com/Noorlalu143/"
+                    href="https://www.fiverr.com/faisalbukhari"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialFacebook />
+                      <TbBrandFiverr />
                     </span>
                   </motion.a>
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 1, ease: "easeIn" }}
-                    href="https://www.instagram.com/shah__faisal__bukhari/"
+                    transition={{ delay: 0.95, ease: "easeIn" }}
+                    href="https://www.upwork.com/freelancers/faisalb21"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialInstagram />
+                      <TbBrandUpwork />
                     </span>
                   </motion.a>
                 </div>
