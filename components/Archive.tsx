@@ -4,6 +4,32 @@ import { motion } from "framer-motion";
 
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
+  const [moreProjects, setMoreProjects] = useState([
+    {
+      id: 1,
+      title: "Just Doing Solar",
+      description:
+        "Just Doing Solar offers comprehensive solar energy solutions, including installation, products, and guidance to help customers transition to sustainable and renewable energy sources.",
+      live: "https://justdoingsolar.com/",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+    {
+      id: 2,
+      title: "Crescent Education",
+      description:
+        "Crescent Education is an educational platform offering a range of courses, including vocational and English language training, to enhance skills and career opportunities in Australia.",
+      live: "https://crescenteducation.com.au/",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+    {
+      id: 3,
+      title: "AXM Human Resources",
+      description:
+        "AXM Human Resources is a human resources platform providing professional HR services and solutions for businesses to effectively manage their workforce and optimize human capital.",
+      live: "http://axmhr.com/",
+      technology: ["React", "Node", "Antd", "Twilio"],
+    },
+  ]);
   const [projects, setProjects] = useState([
     {
       id: 1,
@@ -23,11 +49,35 @@ const Archive = () => {
     },
     {
       id: 3,
-      title: "Prisoners Covid Vacination Track",
+      title: "Cohere",
       description:
-        "This is a private website were Jails Officical and Covid Vacination team do tracking of covid vacination of their prisoners",
+        "Cohere is a coaching side where coachs have their students and clients how communicate with onsite calls with them",
+      live: "#",
+      technology: ["React", ".Net", "Material", "Stripe", "Less"],
+    },
+    {
+      id: 4,
+      title: "Sollabs",
+      description:
+        "Sollabs is a Lab Record Management System of US Based Lab that maintain the records of their testing tubes and track locations of them in trays as well",
       live: "https://sollabs.viralsolutionsga.com/login",
       technology: ["React", "Node", "Antd", "Twilio"],
+    },
+    {
+      id: 5,
+      title: "Aqua Operators",
+      description:
+        "Aqua Operators provides professional water and wastewater treatment services, equipment, and consulting solutions to meet diverse industrial and municipal needs.",
+      live: "https://aquaoperators.com/",
+      technology: ["Wordpress", "Avada", "Elementor", "CF7"],
+    },
+    {
+      id: 6,
+      title: "Drymax",
+      description:
+        "Drymax offers premium moisture control solutions, including desiccants and humidity indicators, to protect products from moisture damage.",
+      live: "https://drymax.com.au/",
+      technology: ["Wordpress", "Avada", "Elementor", "CF7"],
     },
   ]);
 
@@ -42,49 +92,28 @@ const Archive = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-        <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
-        />
-        <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
-        />
-        <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
-        />
-        <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
-        />
-
+        {projects.map((project) => (
+          <ArchiveCard
+            title={project.title}
+            des={project.description}
+            listItem={project.technology}
+            link={project.live}
+          />
+        ))}
+      </div>
+      {showMore && (
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+          {moreProjects.map((project) => (
+            <ArchiveCard
+              title={project.title}
+              des={project.description}
+              listItem={project.technology}
+              link={project.live}
+            />
+          ))}
+        </div>
+      )}
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         {showMore && (
           <>
             <motion.div
@@ -206,7 +235,7 @@ const Archive = () => {
             </motion.div>
           </>
         )}
-      </div>
+      </div> */}
       <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
