@@ -57,7 +57,6 @@ const Navbar = () => {
             transition={{ duration: 0.1 }}
           >
             <Image className="w-14" src={logo} alt="logo" />
-            <p style={{ fontSize: 40, color: "#65ffdb" }}>Frontline Forge</p>
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
