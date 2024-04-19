@@ -6,7 +6,7 @@ const RightSide = () => {
       <a href="mailto:faisalbukhari111@gmail.com">
         <p
           className="text-sm rotate-90 w-72 tracking-widest text-textGreen"
-          style={{ marginBottom: 65 }}
+          style={{ marginBottom: 70 }}
         >
           faisalbukhari111@gmail.com
         </p>

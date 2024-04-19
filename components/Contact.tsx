@@ -18,7 +18,7 @@ const Contact = () => {
 
       <a href="mailto:faisalbukhari111@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-          Say Hello
+          Say Hello!
         </button>
       </a>
     </section>
