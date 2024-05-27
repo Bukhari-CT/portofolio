@@ -15,7 +15,7 @@ const ReactBD = ({ experiance }: any) => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         {experiance?.title}
-        <span className="text-textGreen tracking-wide">
+        <span className="text-textDarkBlue tracking-wide">
           {experiance?.company && "@"}
           {experiance?.company}
         </span>
@@ -29,7 +29,7 @@ const ReactBD = ({ experiance }: any) => {
             key={experiance.id}
             className="text-base flex gap-2 text-textDark"
           >
-            <span className="text-textGreen mt-1">
+            <span className="text-textDarkBlue mt-1">
               <TiArrowForward />
             </span>
             {responsibility}

@@ -5,7 +5,7 @@ const RightSide = () => {
     <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight">
       <a href="mailto:faisalbukhari111@gmail.com">
         <p
-          className="text-sm rotate-90 w-72 tracking-widest text-textGreen"
+          className="text-sm rotate-90 w-72 tracking-widest text-textDarkBlue"
           style={{ marginBottom: 70 }}
         >
           faisalbukhari111@gmail.com
