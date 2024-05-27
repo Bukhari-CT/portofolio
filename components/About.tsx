@@ -32,7 +32,7 @@ const About = () => {
           <p>
             Hello! I`m Faisal Bukhari, and I thrive on creating captivating
             online experiences. As a
-            <span className="text-textGreen"> Full Stack Developer</span>, I
+            <span className="text-textDarkBlue"> Full Stack Developer</span>, I
             bring a holistic approach to web development, marrying both
             front-end and back-end expertise. My journey in web development has
             equipped me with a unique skill set, enabling me to take your
@@ -42,7 +42,7 @@ const About = () => {
           </p>
           <p>
             In web development, I`ve tackled the intricacies of Webpack,
-            <span className="text-textGreen">
+            <span className="text-textDarkBlue">
               {" "}
               enhancing website performance and achieving faster loading times.
             </span>{" "}
@@ -50,16 +50,16 @@ const About = () => {
             applications.
           </p>
           <p>
-            <span className="text-textGreen">As a MERN Stack Developer</span>,
-            I`ve crafted responsive web applications, optimized performance, and
-            seamlessly integrated REST APIs. I`ve embraced modern front-end
+            <span className="text-textDarkBlue">As a MERN Stack Developer</span>
+            , I`ve crafted responsive web applications, optimized performance,
+            and seamlessly integrated REST APIs. I`ve embraced modern front-end
             tools and agile methodologies, working collaboratively. Fast-forward
             to today, and I had the privilege of working at an advertising
             agency, a start-up,{" "}
           </p>
           <p>
-            <span className="text-textGreen">In WordPress</span>, I`ve honed my
-            skills, transforming ideas into functional websites. From custom
+            <span className="text-textDarkBlue">In WordPress</span>, I`ve honed
+            my skills, transforming ideas into functional websites. From custom
             development to e-commerce solutions, I excel in incorporating
             advanced features for improved functionality.
           </p>
@@ -67,7 +67,7 @@ const About = () => {
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             {skills.map((skill, index) => (
               <li key={index} className="flex items-center gap-2">
-                <span className="text-textGreen">
+                <span className="text-textDarkBlue">
                   <AiFillThunderbolt />
                 </span>
                 {skill}
@@ -83,10 +83,10 @@ const About = () => {
                 src={profileImg}
                 alt="profileImg"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textDarkBlue/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
+          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textDarkBlue rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
     </section>

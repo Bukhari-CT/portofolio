@@ -119,7 +119,7 @@ const Archive = () => {
         <h2 className="text-3xl font-titleFont font-semibold">
           Other Noteworthy Projects
         </h2>
-        <p className="text-sm font-titleFont text-textGreen">
+        <p className="text-sm font-titleFont text-textDarkBlue">
           view the archive
         </p>
       </div>
@@ -274,14 +274,14 @@ const Archive = () => {
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+            className="w-36 h-12 rounded-md text-textDarkBlue text-[13px] border border-textDarkBlue hover:bg-hoverColor duration-300"
           >
             Show Less
           </button>
         ) : (
           <button
             onClick={() => setShowMore(true)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+            className="w-36 h-12 rounded-md text-textDarkBlue text-[13px] border border-textDarkBlue hover:bg-hoverColor duration-300"
           >
             Show More
           </button>

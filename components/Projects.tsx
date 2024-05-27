@@ -29,12 +29,12 @@ const Projects = () => {
                 src={cafezupas}
                 alt="cafezupas"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textDarkBlue/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textDarkBlue text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Cafezupas</h3>
@@ -42,7 +42,7 @@ const Projects = () => {
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               CafeZupas is sophisticated restaurant portal for menus, locations,
               seamless online orders, and convenient{" "}
-              <span className="text-textGreen">social media logins</span>.
+              <span className="text-textDarkBlue">social media logins</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
@@ -53,14 +53,14 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://cafezupas.com/"
                 target="_blank"
               >
@@ -83,22 +83,22 @@ const Projects = () => {
                 src={viralSolutions}
                 alt="viralSolutions"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textDarkBlue/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textDarkBlue text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Viral Solutions</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#C1DADF] p-2 md:p-6 rounded-md xl:-mr-16">
               Viral Solutions is a company that do Covid testings of and
               generate there reports and provide their reports online to their
               clients on their different portals website. Their users can login
               to
-              <span className="text-textGreen">
+              <span className="text-textDarkBlue">
                 {" "}
                 Portals and get their results.
               </span>
@@ -113,14 +113,14 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://viralsolutionsga.com/"
                 target="_blank"
               >
@@ -143,12 +143,12 @@ const Projects = () => {
                 src={urgentcare}
                 alt="urgentcare"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textDarkBlue/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textDarkBlue text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">DriveThru Urgent Care</h3>
@@ -157,7 +157,7 @@ const Projects = () => {
               DriveThru Urgent Care provides check-up facility on DriveThru
               patients can book their schedule online through portal and can
               visit the{" "}
-              <span className="text-textGreen">DriveThru for check-up.</span>{" "}
+              <span className="text-textDarkBlue">DriveThru for check-up.</span>{" "}
               Patient can check results from the portal{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
@@ -169,14 +169,14 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://github.com/Bukhari-CT"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textDarkBlue duration-300"
                 href="https://drivethruurgentcare.com/"
                 target="_blank"
               >

@@ -172,7 +172,7 @@ const Experience = () => {
               onClick={() => onClickExperiance(experiance.id)}
               className={`${
                 selectedExperiance.id === experiance.id
-                  ? "border-l-textGreen text-textGreen"
+                  ? "border-l-textDarkBlue text-textDarkBlue"
                   : "border-l-hoverColor text-textDark"
               } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
             >
