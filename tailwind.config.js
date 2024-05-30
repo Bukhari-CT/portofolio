@@ -31,6 +31,7 @@ module.exports = {
         hoverColor: "rgba(100,255,218,0.1)",
       },
       fontFamily: {
+        Sevillana: ["Sevillana", "serif"],
         bodyFont: ["Montserrat", "sans-serif"],
         titleFont: ["Inter", "sans-serif"],
       },
