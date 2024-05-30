@@ -56,7 +56,9 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <span className="text-5xl font-bold font-Sevillana">
+              Faisal Bukhari
+            </span>
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
