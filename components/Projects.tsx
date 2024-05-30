@@ -39,7 +39,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Cafezupas</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#dfd9de] text-sm md:text-base p-2 md:p-6 rounded-md">
               CafeZupas is sophisticated restaurant portal for menus, locations,
               seamless online orders, and convenient{" "}
               <span className="text-textDarkBlue">social media logins</span>.
@@ -93,7 +93,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Viral Solutions</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#C1DADF] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#dfd9de] p-2 md:p-6 rounded-md xl:-mr-16">
               Viral Solutions is a company that do Covid testings of and
               generate there reports and provide their reports online to their
               clients on their different portals website. Their users can login
@@ -153,7 +153,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">DriveThru Urgent Care</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-[#dfd9de] p-2 md:p-6 rounded-md">
               DriveThru Urgent Care provides check-up facility on DriveThru
               patients can book their schedule online through portal and can
               visit the{" "}

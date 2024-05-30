@@ -10,6 +10,22 @@ const Experience = () => {
   const [experiences, setExperiances] = useState<any>([
     {
       id: 1,
+      title: "Front-End Engineer",
+      company: "Devsarch",
+      timePeriod: "Nov 2023 - Present",
+      responsibilites: [
+        "Created test cases using Jest, boosting coverage from 7% to 50%.",
+        "Ensured website responsiveness across all devices.",
+        "Implemented charts for database details presentation.",
+        "Resolved bugs to enhance product stability.",
+        "Utilized TypeScript classes effectively.",
+        "Developed React presentational components.",
+        "Crafted over 10 custom hooks for API calls.",
+        "Contributed to Laravel projects with HTML, CSS, and Tailwind CSS.",
+      ],
+    },
+    {
+      id: 2,
       title: "Front-End Developer",
       company: "Nodlays",
       timePeriod: "June 2023 - Oct 2023",
@@ -24,7 +40,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "MERN Stack Developer",
       company: "Carbonteq",
       timePeriod: "November 2021 - June 2023",
@@ -41,7 +57,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Game Developer",
       company: "Casual Gaming Studio",
       timePeriod: "Decmeber 2019 - May 2020",
@@ -56,7 +72,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "Wordpress Web Developer",
       company: "Pineal",
       timePeriod: "July 2019 - November 2019",
@@ -71,7 +87,7 @@ const Experience = () => {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "Web Developer",
       company: "Fiver",
       timePeriod: "July 2018 - Persent",
@@ -87,21 +103,9 @@ const Experience = () => {
     },
   ]);
 
-  const [selectedExperiance, setSelectedExperiance] = useState<any>({
-    id: 1,
-    title: "Front-End Developer",
-    company: "Nodlays",
-    timePeriod: "June 2023 - Oct 2023",
-    responsibilites: [
-      "Implemented responsive web design to ensure websites function seamlessly across various devices and screen sizes.",
-      "Integrated E-Sign registration, optimizing the user sign-up process for efficiency and user experience.",
-      "Utilized a WYSIWYG editor, simplifying post writing and facilitating easy publishing.",
-      "Resolved Webpack issues, resulting in a 20% improvement in website performance and a 30% reduction in loading times.",
-      "Translated intricate Figma designs into polished and consistent React applications, ensuring design fidelity and functionality.",
-      "Conducted regular code reviews to maintain code quality and consistency, adhering to best practices.",
-      "Monitored website performance, identifying and rectifying performance bottlenecks, leading to a 15% increase in user satisfaction.",
-    ],
-  });
+  const [selectedExperiance, setSelectedExperiance] = useState<any>(
+    experiences[0],
+  );
 
   const [workReactbd, setWorkReactbd] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
@@ -119,7 +123,7 @@ const Experience = () => {
 
   const onClickExperiance = (id: number) => {
     const matchedExperiance = experiences.find(
-      (experience: any) => experience.id === id
+      (experience: any) => experience.id === id,
     );
     if (matchedExperiance) {
       setSelectedExperiance({});
@@ -174,7 +178,7 @@ const Experience = () => {
                 selectedExperiance.id === experiance.id
                   ? "border-l-textDarkBlue text-textDarkBlue"
                   : "border-l-hoverColor text-textDark"
-              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+              } border-l-2 bg-transparent hover:bg-[#dfd9de] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
             >
               {experiance.company}
             </li>
