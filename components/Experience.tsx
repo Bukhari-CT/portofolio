@@ -1,10 +1,6 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./works/Amazon";
-import Apple from "./works/Apple";
-import Google from "./works/Google";
 import ReactBD from "./works/ReactBD";
-import Splash from "./works/Splash";
 
 const Experience = () => {
   const [experiences, setExperiances] = useState<any>([
@@ -107,19 +103,7 @@ const Experience = () => {
     experiences[0]
   );
 
-  const [workReactbd, setWorkReactbd] = useState(true);
-  const [workGoogle, setWorkGoogle] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
-  const [workSplash, setWorkSplash] = useState(false);
-  const [workAmazon, setWorkAmazon] = useState(false);
-
-  const handleReactbd = () => {
-    setWorkReactbd(true);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
+  const [workReactbd] = useState(true);
 
   const onClickExperiance = (id: number) => {
     const matchedExperiance = experiences.find(
@@ -133,35 +117,6 @@ const Experience = () => {
     }
   };
 
-  const handleGoogle = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
-    setWorkAmazon(false);
-  };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
-  };
   return (
     <section
       id="experience"
