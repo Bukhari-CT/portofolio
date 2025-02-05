@@ -104,7 +104,7 @@ const Experience = () => {
   ]);
 
   const [selectedExperiance, setSelectedExperiance] = useState<any>(
-    experiences[0],
+    experiences[0]
   );
 
   const [workReactbd, setWorkReactbd] = useState(true);
@@ -123,7 +123,7 @@ const Experience = () => {
 
   const onClickExperiance = (id: number) => {
     const matchedExperiance = experiences.find(
-      (experience: any) => experience.id === id,
+      (experience: any) => experience.id === id
     );
     if (matchedExperiance) {
       setSelectedExperiance({});
@@ -167,7 +167,7 @@ const Experience = () => {
       id="experience"
       className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title="Where I have Worked" titleNo="02" />
+      <SectionTitle title="Experiance" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           {experiences.map((experiance: any) => (
