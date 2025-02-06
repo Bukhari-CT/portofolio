@@ -19,15 +19,18 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark m-auto text-center font-medium"
       >
-        Welcome to my portfolio! I`m Faisal Bukhari, a passionate Full Stack
-        Developer with a deep-rooted love for bringing web applications to life.
-        My journey into the world of web development began in 2018, and it all
-        started with the curiosity of customizing Tumblr themes. Little did I
-        know that tinkering with HTML, CSS and Javascript to create a custom
-        reblog button would ignite a lifelong fascination with crafting things
-        on the internet!{" "}
+        A passionate Frontend Developer with a strong passion for building
+        dynamic web applications. My journey into web development began in 2018,
+        sparked by a curiosity to customize Tumblr themes. What started as
+        experimenting with HTML, CSS, and JavaScript to create a custom reblog
+        button soon evolved into a deep fascination with crafting experiences on
+        the web.
       </motion.p>
-      <a href="https://github.com/Bukhari-CT" className="flex justify-center" target="_blank">
+      <a
+        href="https://github.com/Bukhari-CT"
+        className="flex justify-center"
+        target="_blank"
+      >
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

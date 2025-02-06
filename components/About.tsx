@@ -14,6 +14,8 @@ const About = () => {
     "Nodejs",
     "Nextjs",
     "Expressjs",
+    "jest",
+    "playwright",
     "Antd",
     "Material-Ui",
     "TailwindCSS",
